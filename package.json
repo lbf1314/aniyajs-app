@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env ANIYAJS_ENV=dev aniya dev",
-    "build": "cross-env ANIYAJS_ENV=dev aniya build"
+    "start:prd": "cross-env ANIYAJS_ENV=prd aniya dev",
+    "build": "cross-env ANIYAJS_ENV=prd aniya build"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,7 @@
     "@aniyajs/components": "^1.1.4",
     "@aniyajs/plugin-router": "^1.4.5",
     "@aniyajs/plugin-tooltik": "^1.1.6",
-    "@aniyajs/rotor": "^1.1.9",
+    "@aniyajs/rotor": "^1.2.0",
     "@ant-design/pro-components": "^2.8.10",
     "@ant-design/pro-layout": "^7.22.7",
     "axios": "^1.13.2",

@@ -2,6 +2,7 @@ import routes from './routes'
 import proxy from './proxy'
 
 export default {
+  outputPath: "docs",
   // 静态资源文件路径前缀
   publicPath: './',
   // 开发服务器配置
