@@ -1,5 +1,5 @@
 {
-  "name": "aniyajs-newapp",
+  "name": "aniyajs-app",
   "version": "1.0.0",
   "description": "**基于aniyajs + antd开发的中台管理项目模版**",
   "main": "index.js",
@@ -12,7 +12,6 @@
     "type": "git",
     "url": "https://gitee.com/liu-bingfang/aniyajs-myapp.git"
   },
-  "homepage": "https://lbf1314.github.io/aniyajs-app/",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -20,13 +19,13 @@
     "@aniyajs/components": "^1.1.4",
     "@aniyajs/plugin-router": "^1.4.6",
     "@aniyajs/plugin-tooltik": "^1.1.6",
-    "@aniyajs/rotor": "^1.2.1",
     "@ant-design/pro-components": "^2.8.10",
     "@ant-design/pro-layout": "^7.22.7",
     "axios": "^1.13.2",
     "react": "18.x",
     "react-dom": "18.x",
-    "react-helmet-async": "^2.0.5"
+    "react-helmet-async": "^2.0.5",
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
     "@types/react": "^18.3.1",
