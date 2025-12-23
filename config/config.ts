@@ -4,7 +4,7 @@ import proxy from './proxy'
 export default {
   outputPath: "docs",
   // 静态资源文件路径前缀
-  publicPath: "/aniyajs-app/",
+  publicPath: "/",
   // 开发服务器配置
   devServer: {
     port: 9994,

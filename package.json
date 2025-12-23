@@ -17,7 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "@aniyajs/components": "^1.1.4",
-    "@aniyajs/plugin-router": "^1.4.5",
+    "@aniyajs/plugin-router": "^1.4.6",
     "@aniyajs/plugin-tooltik": "^1.1.6",
     "@aniyajs/rotor": "^1.2.0",
     "@ant-design/pro-components": "^2.8.10",
