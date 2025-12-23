@@ -1,0 +1,12 @@
+export { default as AniyaSvg_Custom } from '@/assets/svg/aniya.svg?component';
+export { default as PermissionSvg_Custom } from '@/assets/svg/permission.svg?component';
+export { default as AccountSvg_Custom } from '@/assets/svg/account.svg?component';
+export { default as RoleSvg_Custom } from '@/assets/svg/role.svg?component';
+export { default as MenuSvg_Custom } from '@/assets/svg/menu.svg?component';
+export { default as BusinessSvg_Custom } from '@/assets/svg/business.svg?component';
+export { default as HappySvg_Custom } from '@/assets/svg/happy.svg?component';
+export { default as WallpaperSvg_Custom } from '@/assets/svg/wallpaper.svg?component';
+export { default as ClothesSvg_Custom } from '@/assets/svg/clothes.svg?component';
+export { default as EmailSvg_Custom } from '@/assets/svg/email.svg?component';
+export { default as EmailCaptchaSvg_Custom } from '@/assets/svg/emailCaptcha.svg?component';
+export { default as ChangeAccountSvg_Custom } from '@/assets/svg/changeAccount.svg?component';
