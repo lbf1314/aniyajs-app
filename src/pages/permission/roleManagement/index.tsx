@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import type { ActionType, ProColumns } from '@ant-design/pro-components';
 import { message, Popconfirm, Button, Tag } from 'antd';
 import { ProTable } from '@ant-design/pro-components';
-import OperateRender from './OperateRender';
+import OperateRender from './operateRender';
 import pageConfig from './pageConfig';
 import api from '@/services/roleManagement';
 import { OperatorKeys, OperatorType } from './interface';
