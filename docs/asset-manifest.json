@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f19e948.css",
-    "main.js": "/static/js/main.c551efa0.js",
-    "runtime.js": "/static/js/runtime.fb6c63ad.js",
-    "vendors.css": "/static/css/vendors.55b22073.css",
-    "vendors.js": "/static/js/vendors.9214aa8e.js",
-    "index.html": "/index.html"
+    "main.css": "/aniyajs-app/static/css/main.3f19e948.css",
+    "main.js": "/aniyajs-app/static/js/main.c551efa0.js",
+    "runtime.js": "/aniyajs-app/static/js/runtime.fb6c63ad.js",
+    "vendors.css": "/aniyajs-app/static/css/vendors.55b22073.css",
+    "vendors.js": "/aniyajs-app/static/js/vendors.9214aa8e.js",
+    "index.html": "/aniyajs-app/index.html"
   },
   "entrypoints": [
     "static/js/runtime.fb6c63ad.js",
