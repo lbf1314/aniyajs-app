@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/aniyajs-app/static/css/main.3f19e948.css",
-    "main.js": "/aniyajs-app/static/js/main.1ad7a07e.js",
+    "main.css": "/aniyajs-app/static/css/main.63a46bef.css",
+    "main.js": "/aniyajs-app/static/js/main.2857b9a2.js",
     "runtime.js": "/aniyajs-app/static/js/runtime.540608fb.js",
     "vendors.css": "/aniyajs-app/static/css/vendors.55b22073.css",
-    "vendors.js": "/aniyajs-app/static/js/vendors.90a95311.js",
+    "vendors.js": "/aniyajs-app/static/js/vendors.7f0944fd.js",
     "index.html": "/aniyajs-app/index.html"
   },
   "entrypoints": [
     "static/js/runtime.540608fb.js",
     "static/css/vendors.55b22073.css",
-    "static/js/vendors.90a95311.js",
-    "static/css/main.3f19e948.css",
-    "static/js/main.1ad7a07e.js"
+    "static/js/vendors.7f0944fd.js",
+    "static/css/main.63a46bef.css",
+    "static/js/main.2857b9a2.js"
   ]
 }
