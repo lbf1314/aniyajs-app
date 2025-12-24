@@ -54,7 +54,7 @@ const errorHandler = (errorResponse: ExtraAxiosError) => {
 }
 
 const baseURL = 
- (process.env.NODE_ENV === 'development') ? '/api': `${protocol}//${API_DOMAIN}`
+ (process.env.NODE_ENV === 'development') ? '/api': `${API_DOMAIN}`
 
 export default (url: string, options: Partial<AxiosRequestConfig> = {}) => {
   const extraHeaders = {}
