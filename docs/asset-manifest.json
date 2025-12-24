@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aniyajs-app/static/css/main.63a46bef.css",
-    "main.js": "/aniyajs-app/static/js/main.b6f91346.js",
+    "main.js": "/aniyajs-app/static/js/main.6c444e7b.js",
     "runtime.js": "/aniyajs-app/static/js/runtime.540608fb.js",
     "vendors.css": "/aniyajs-app/static/css/vendors.55b22073.css",
     "vendors.js": "/aniyajs-app/static/js/vendors.370047a0.js",
@@ -12,6 +12,6 @@
     "static/css/vendors.55b22073.css",
     "static/js/vendors.370047a0.js",
     "static/css/main.63a46bef.css",
-    "static/js/main.b6f91346.js"
+    "static/js/main.6c444e7b.js"
   ]
 }
