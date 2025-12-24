@@ -17,7 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "@aniyajs/components": "^1.1.4",
-    "@aniyajs/plugin-router": "^1.5.0",
+    "@aniyajs/plugin-router": "^1.5.3",
     "@aniyajs/plugin-tooltik": "^1.1.6",
     "@aniyajs/rotor": "^1.2.2",
     "@ant-design/pro-components": "^2.8.10",
@@ -30,7 +30,8 @@
   "devDependencies": {
     "@types/react": "^18.3.1",
     "better-mock": "^0.3.7",
-    "cross-env": "^10.1.0"
+    "cross-env": "^10.1.0",
+    "typescript": "^5.9.3"
   },
   "browserslist": {
     "production": [

@@ -2,10 +2,14 @@ import routes from './routes'
 import proxy from './proxy'
 
 export default {
+  // 是否启用hash模式
+  hash: true,
+  // 基础路径-不使用@aniyajs/plugin-router时不需要配置
+  basename: "/aniyajs-app/",
+  // 输出路径
   outputPath: "docs",
   // 静态资源文件路径前缀
   publicPath: "/aniyajs-app/",
-  hash: true,
   // 开发服务器配置
   devServer: {
     port: 9995,
