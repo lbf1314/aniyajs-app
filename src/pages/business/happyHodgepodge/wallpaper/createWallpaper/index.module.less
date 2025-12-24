@@ -1,0 +1,21 @@
+.createWallpaperForm {
+  position: relative;
+  :global {
+    .ant-input-outlined.ant-input-disabled input[disabled] {
+      color: #000000;
+    }
+    .ant-select-disabled.ant-select-multiple .ant-select-selection-overflow .ant-select-selection-item {
+      color: #000000;
+    }
+    .ant-input-outlined.ant-input-disabled, .ant-input-outlined[disabled] { 
+      color: #000000;
+    }
+  }
+
+  .backBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+  }
+}
