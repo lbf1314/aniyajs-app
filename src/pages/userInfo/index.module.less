@@ -1,0 +1,78 @@
+/* src/pages/userInfo/index.module.less */
+.userCenter {
+  padding: 24px;
+  background-color: #f0f2f5;
+  min-height: 600px;
+  height: max-content;
+  box-sizing: border-box;
+
+  .pageTitle {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #1d39c4;
+  }
+
+  .profileCard {
+    margin-bottom: 24px;
+    text-align: center;
+
+    :global(.ant-card-body) {
+      padding: 32px;
+    }
+
+    .profileHeader {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .avatarWrapper {
+        position: relative;
+        margin-bottom: 16px;
+
+        .avatar {
+          border: 2px solid #e8e8e8;
+          cursor: pointer;
+        }
+
+        .cameraIcon {
+          position: absolute;
+          bottom: 8px;
+          right: 8px;
+          background: #1890ff;
+          color: white;
+          border-radius: 50%;
+          width: 28px;
+          height: 28px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          transition: all 0.3s;
+          
+          &:hover {
+            background: #40a9ff;
+          }
+        }
+      }
+
+      .nickname {
+        margin-bottom: 8px !important;
+      }
+    }
+  }
+
+  .infoCard {
+    :global(.ant-card-head-title) {
+      font-weight: bold;
+      color: #1d39c4;
+    }
+
+    :global(.ant-descriptions-item-label) {
+      width: 100px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 12px;
+  }
+}
