@@ -3,13 +3,12 @@ import proxy from './proxy'
 
 export default {
   // // 是否启用hash模式
-  // hash: true,
+  hash: process.env.NODE_ENV !== "development",
   // // 基础路径-不使用@aniyajs/plugin-router时不需要配置
-  // basename: "/aniyajs-app/",
+  basename: process.env.NODE_ENV === "development" ? "/" : "/aniyajs-app/",
   outputPath: "docs",
   // 静态资源文件路径前缀
-  // publicPath: "/aniyajs-app/",
-  publicPath: "/",
+  publicPath: process.env.NODE_ENV === "development" ? "/" : "/aniyajs-app/",
   // 开发服务器配置
   devServer: {
     port: 9994,

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/aniyajs-app/static/css/main.f5481d1a.css",
+    "main.js": "/aniyajs-app/static/js/main.4caca039.js",
+    "runtime.js": "/aniyajs-app/static/js/runtime.540608fb.js",
+    "vendors.css": "/aniyajs-app/static/css/vendors.55b22073.css",
+    "vendors.js": "/aniyajs-app/static/js/vendors.2a28f216.js",
+    "index.html": "/aniyajs-app/index.html"
+  },
+  "entrypoints": [
+    "static/js/runtime.540608fb.js",
+    "static/css/vendors.55b22073.css",
+    "static/js/vendors.2a28f216.js",
+    "static/css/main.f5481d1a.css",
+    "static/js/main.4caca039.js"
+  ]
+}
