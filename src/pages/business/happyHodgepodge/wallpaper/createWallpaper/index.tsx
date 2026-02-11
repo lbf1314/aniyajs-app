@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import type { ProFormColumnsType } from '@ant-design/pro-components';
 import { BetaSchemaForm } from '@ant-design/pro-components';
-import { Image, Upload, Modal, message, Spin, Form, Button, UploadFile, Divider, Space, Input } from 'antd';
+import { Image, Upload, Modal, message, Spin, Form, Button, UploadFile, Divider, Space, Input, Tag } from 'antd';
 import api from '@/services/common';
 import wallpaperApi from '@/services/wallpaper';
 import { useHistory, useParams } from '@aniyajs/plugin-router';
 import { arraysEqualAsSet, getBase64 } from '@/utils/utils';
 import styles from './index.module.less';
 import { iconMap } from '@/utils/constant';
+import ARadioBlock from '@/components/ARadioBlock';
 
 const { confirm } = Modal;
 
@@ -30,6 +31,25 @@ export default (): React.ReactNode => {
   const [tagOptions, setTagOptions] = useState<any[]>([]);
 
   const columns: ProFormColumnsType<WallpaperTypes.WallpaperAuditDetailProps>[] = [
+    {
+      title: '选择分类',
+      dataIndex: 'category',
+      initialValue: '2',
+      fieldProps: {
+        disabled: (params?.pageType === 'wallpaperAudit') || (params?.operateType === 'show'),
+      },
+      renderFormItem: () => {
+        return <ARadioBlock />
+      },
+      formItemProps: {
+        rules: [
+          {
+            required: true,
+            message: '此项为必填项',
+          },
+        ],
+      },
+    },
     {
       title: '壁纸标题',
       dataIndex: 'title',
@@ -199,6 +219,31 @@ export default (): React.ReactNode => {
       fieldProps: {
         disabled: (params?.pageType === 'wallpaperAudit') || (params?.operateType === 'show'),
       },
+    },
+    {
+      valueType: 'divider',
+    },
+    {
+      title: '是否公开',
+      dataIndex: 'isPublic',
+      valueType: "switch",
+      initialValue: true,
+      fieldProps: {
+        checkedChildren: '是',
+        uncheckedChildren: '否',
+        disabled: (params?.pageType === 'wallpaperAudit') || (params?.operateType === 'show'),
+      }
+    },
+    {
+      title: '允许评论',
+      dataIndex: 'isComment',
+      valueType: "switch",
+      initialValue: true,
+      fieldProps: {
+        checkedChildren: '是',
+        uncheckedChildren: '否',
+        disabled: (params?.pageType === 'wallpaperAudit') || (params?.operateType === 'show'),
+      }
     },
     {
       valueType: 'divider',

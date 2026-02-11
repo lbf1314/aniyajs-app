@@ -20,7 +20,7 @@ declare namespace WallpaperTypes {
 
   interface AuditListWallpaperItemProps {
     id: string; // 审核单ID
-    status: "1" | "2" | "3"; // 审核状态
+    status: "1" | "2" | "3" | 1 | 2 | 3; // 审核状态
     title: string; // 图集名称
     tags: string[]; // 所属标签
     accountId: string; // 审核人账号ID
@@ -30,7 +30,7 @@ declare namespace WallpaperTypes {
   
   interface WallpaperAuditDetailProps {
     id: string; // 审核单id
-    status: "1" | "2" | "3"; // 审核状态
+    status: "1" | "2" | "3" | 1 | 2 | 3; // 审核状态
     aduitText: string; // 审核结果
     imgUrls: any; // 图片url集合
     title: string; // 图集名称
@@ -41,5 +41,6 @@ declare namespace WallpaperTypes {
     wallpaperId: string; // 图集id
     createId: string; // 创建者id
     updateKeys: string[] | []; // 修改的key集合
+    category: "1" | "2" | "3" | 1 | 2 | 3;
   }
 }
