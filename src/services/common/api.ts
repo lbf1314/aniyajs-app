@@ -1,4 +1,4 @@
-import { queryGet, queryUpload } from "@/utils/api"
+import { queryGet, queryUpload, queryPost } from "@/utils/api"
 
 // 上传文件
 export const uploadFileSync = (data: FormData): Promise<API.InterfaceResult<CommonTypes.UploadedFileResType>> => {
@@ -6,9 +6,9 @@ export const uploadFileSync = (data: FormData): Promise<API.InterfaceResult<Comm
 };
 
 // 获取枚举数据
-export const enumSync = (params: { type: string }): Promise<CommonTypes.EnumTypes> => {
+export const enumSync = (params: { types: string[] | [] }): Promise<CommonTypes.EnumTypes> => {
   return new Promise((resolve, reject) => {
-    queryGet('/common/enum', params).then(res => {
+    queryPost('/common/enum', params).then(res => {
       if (res?.code === 200) {
         resolve(res?.result ?? []);
       } else {

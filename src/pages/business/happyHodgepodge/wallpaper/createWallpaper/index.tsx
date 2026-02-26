@@ -258,7 +258,7 @@ export default (): React.ReactNode => {
       valueType: 'select',
       request: async () => {
         const result = await api.enumSync({
-          type: "AUDIT_STATUS"
+          types: ["AUDIT_STATUS"]
         })
 
         return result?.map(item => ({
@@ -445,7 +445,7 @@ export default (): React.ReactNode => {
 
   useEffect(() => {
     // 获取现有的标签选项
-    api.enumSync({ type: "WALLPAPER_TAG" }).then((result) => {
+    api.enumSync({ types: ["WALLPAPER_TAG"] }).then((result) => {
       if (result) {
         const options = result.map(item => ({
           label: item?.text,

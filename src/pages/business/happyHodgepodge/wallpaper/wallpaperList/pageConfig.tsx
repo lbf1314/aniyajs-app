@@ -51,7 +51,7 @@ function pageConfig({ goAudit }: pageConfigProps): PageConfigTypes {
         },
         request: async () => {
           const result = await api.enumSync({
-            type: "WALLPAPER_TAG"
+            types: ["WALLPAPER_TAG"]
           })
 
           return result?.map(item => ({
