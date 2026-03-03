@@ -89,8 +89,3 @@ export const sendVerificationCode = async (data: { email: string }): Promise<API
 export const emailLogin = async (data: Partial<UserTypes.EmailLoginReq>): Promise<API.InterfaceResult<Array<UserTypes.LoginResult>>> => {
   return queryPost('/sys/emailLogin', data)
 }
-
-// 获取账户列表
-export const getAccountList = async (): Promise<API.InterfaceResult<Array<UserTypes.LoginResult>>> => {
-  return queryAsyncGet('/sys/accountList')
-}
